@@ -1,10 +1,19 @@
 import React from "react";
-import './CreateTodoButton.css'
+import "./CreateTodoButton.css";
 
-function CreateTodoButton(props){
-    return(
-        <button className="CreateTodoButton" >+</button>
-    );
+function CreateTodoButton(props) {
+  const onClickButton = () => {
+    alert("Diste un Click al boton gordito");
+  };
+
+  return (
+    <button 
+        className="CreateTodoButton" 
+        onClick={onClickButton}
+    >
+      +
+    </button>
+  );
 }
 
 export { CreateTodoButton };
