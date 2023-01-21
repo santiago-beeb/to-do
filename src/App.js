@@ -10,6 +10,13 @@ const todos = [
   { text: "Cortar cebolla", completed: false },
   { text: "Tormar el curso de intro a react", completed: true },
   { text: "Llorar con la llorona", completed: false },
+  { text: "Escribir una gran historia", completed: false },
+  { text: "jugar Fifa", completed: false },
+  { text: "jugar Fifa", completed: false },
+  { text: "jugar Fifa", completed: false },
+  { text: "jugar Fifa", completed: true },
+  { text: "jugar Fifa", completed: false },
+  { text: "jugar Fifa", completed: true },
 ];
 function App() {
   return (
