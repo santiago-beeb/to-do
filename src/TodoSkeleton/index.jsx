@@ -1,15 +1,16 @@
 import React from "react";
-import './loading.css'
+import "./loading.css";
+
 const LoadingTodo = () => {
-    return (
+  return (
     <li className="TodoItem-loading">
-        <div className="LoaderBalls">
-            <span className="LoaderBalls__item"></span>
-            <span className="LoaderBalls__item"></span>
-            <span className="LoaderBalls__item"></span>
-        </div>
+      <div className="LoaderBalls">
+        <span className="LoaderBalls__item"></span>
+        <span className="LoaderBalls__item"></span>
+        <span className="LoaderBalls__item"></span>
+      </div>
     </li>
-    )
-}
+  );
+};
 
 export { LoadingTodo };

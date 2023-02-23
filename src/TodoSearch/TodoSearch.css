@@ -20,5 +20,9 @@
 }
 
 .TodoSearch:focus {
-    outline-color: #61dafa;
+    outline-color: #5F3D01;
+}
+
+.TodoSearch:disabled {
+    opacity: 30%;
 }

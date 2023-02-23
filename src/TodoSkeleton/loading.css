@@ -1,5 +1,6 @@
 .TodoItem-loading {
-    background-color: #FAFAFA;
+    background-color: #996434;
+    border-radius: 16px;
     position: relative;
     display: flex;
     justify-content: center;

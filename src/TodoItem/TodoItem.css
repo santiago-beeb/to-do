@@ -1,8 +1,9 @@
 .TodoItem {
-  background-color: #fafafa;
+  background-color: #996434 ;
   border-radius: 16px;
   position: relative;
   display: flex;
+  color: #fafafa;
   justify-content: center;
   align-items: center;
   margin-top: 24px;
@@ -29,7 +30,6 @@
   width: 48px;
   font-size: 24px;
   font-weight: bold;
-  /* background-color: #CCC; */
 }
 
 .Icon-check {
@@ -42,7 +42,6 @@
 
 .Icon-delete {
   position: absolute;
-  top: -24px;
   right: 0;
 }
 .Icon-delete:hover {

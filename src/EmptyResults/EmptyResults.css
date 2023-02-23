@@ -1,0 +1,11 @@
+p{
+  font-size: 40px;
+  color: #fafafa;
+  text-align: center;
+}
+strong{
+  color: black;
+  font-weight: bold;
+  background-color: #fafafa;
+  border-radius: 8px;
+}
