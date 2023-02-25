@@ -1,5 +1,5 @@
 import React from "react";
-import { ChangeAlert} from "../ChangeAlert/index.jsx";
+import { ChangeAlert } from "../ChangeAlert/index.jsx";
 import { CreateTodoButton } from "../CreateTodoButton/index.js";
 import { EmptyResults } from "../EmptyResults/index";
 import { EmptyTodos } from "../EmptyTodos/index";
@@ -15,21 +15,26 @@ import { LoadingTodo } from "../TodoSkeleton/index.jsx";
 import { useTodos } from "./useTodos.js";
 
 function App() {
+  const { states, stateUpdaters } = useTodos();
+
   const {
-    error,
     loading,
-    searchedTodos,
-    deleteTodo,
-    toggleCompleteTodos,
-    openModal,
-    setOpenModal,
+    error,
     totalTodos,
     completedTodos,
     searchValue,
+    searchedTodos,
+    openModal,
+  } = states;
+
+  const {
     setSearchValue,
+    toggleCompleteTodos,
+    deleteTodo,
+    setOpenModal,
     addTodo,
     syncTodos,
-  } = useTodos();
+  } = stateUpdaters;
 
   return (
     <React.Fragment>
@@ -77,10 +82,7 @@ function App() {
 
       <CreateTodoButton setOpenModal={setOpenModal} />
 
-      <ChangeAlert
-        sync={syncTodos}
-      />
-
+      <ChangeAlert sync={syncTodos} />
     </React.Fragment>
   );
 }
