@@ -1,0 +1,11 @@
+.container-edit {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  margin-top: 20%;
+}
+.formulario {
+  width: auto;
+  height: auto;
+  align-items: center;
+}

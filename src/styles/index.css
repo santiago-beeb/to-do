@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Ubuntu';
+  background: #E0BD7D;
+  color: #1e1e1f;
+}
+::selection{
+  background: #996434;
+    color: #fafafa;
+}
+.container-app{
+  max-width: 960px;
+  width: calc(100% - 1rem); 
+  margin: auto;
+}
+#root {
+  margin: 0 24px;
+  position: relative;
+}
